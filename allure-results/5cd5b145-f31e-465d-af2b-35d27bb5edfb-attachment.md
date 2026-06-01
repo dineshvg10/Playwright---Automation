@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Automation Automation Practice":
+    - /url: ""
+    - heading "Automation" [level=3]
+    - paragraph: Automation Practice
+  - list:
+    - listitem:
+      - button " HOME"
+    - listitem
+    - listitem:
+      - button " ORDERS"
+    - listitem:
+      - button " Cart"
+    - listitem:
+      - button "Sign Out"
+- heading "Your Orders" [level=1]
+- table:
+  - rowgroup:
+    - row "Order Id Product Image Name Price Ordered Date View Delete":
+      - columnheader "Order Id"
+      - columnheader "Product Image"
+      - columnheader "Name"
+      - columnheader "Price"
+      - columnheader "Ordered Date"
+      - columnheader "View"
+      - columnheader "Delete"
+  - rowgroup:
+    - row "6932b66d32ed86587120c658 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932b66d32ed86587120c658"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+- text: "* If orders Will be more than 7 your last order will get deleted"
+- button "Go Back to Shop"
+- button "Go Back to Cart"
+```

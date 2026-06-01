@@ -1,0 +1,112 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Automation Automation Practice":
+    - /url: ""
+    - heading "Automation" [level=3]
+    - paragraph: Automation Practice
+  - list:
+    - listitem:
+      - button " HOME"
+    - listitem
+    - listitem:
+      - button " ORDERS"
+    - listitem:
+      - button " Cart"
+    - listitem:
+      - button "Sign Out"
+- heading "Your Orders" [level=1]
+- table:
+  - rowgroup:
+    - row "Order Id Product Image Name Price Ordered Date View Delete":
+      - columnheader "Order Id"
+      - columnheader "Product Image"
+      - columnheader "Name"
+      - columnheader "Price"
+      - columnheader "Ordered Date"
+      - columnheader "View"
+      - columnheader "Delete"
+  - rowgroup:
+    - row "693297c532ed8658712095d6 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "693297c532ed8658712095d6"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "6932975b32ed865871209541 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932975b32ed865871209541"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "6932963632ed865871209346 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932963632ed865871209346"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "6932952432ed8658712091cc iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932952432ed8658712091cc"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "693294a332ed865871209119 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "693294a332ed865871209119"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "6932945932ed8658712090b7 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932945932ed8658712090b7"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "6932943132ed865871209088 iphone 13 pro $ 55000 Fri Dec 05 View Delete":
+      - rowheader "6932943132ed865871209088"
+      - cell:
+        - img
+      - cell "iphone 13 pro"
+      - cell "$ 55000"
+      - cell "Fri Dec 05"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+- text: "* If orders Will be more than 7 your last order will get deleted"
+- button "Go Back to Shop"
+- button "Go Back to Cart"
+- text: Order Placed Successfully
+```

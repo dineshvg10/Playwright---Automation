@@ -1,0 +1,113 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Automation Automation Practice":
+    - /url: ""
+    - heading "Automation" [level=3]
+    - paragraph: Automation Practice
+  - link "London QA Meetup @Rahul Shetty - Limited Seats! Book Now!":
+    - /url: https://qasummit.org/
+  - list:
+    - listitem:
+      - button " HOME"
+    - listitem
+    - listitem:
+      - button " ORDERS"
+    - listitem:
+      - button " Cart"
+    - listitem:
+      - button "Sign Out"
+- heading "Your Orders" [level=1]
+- table:
+  - rowgroup:
+    - row "Order Id Product Image Name Price Ordered Date View Delete":
+      - columnheader "Order Id"
+      - columnheader "Product Image"
+      - columnheader "Name"
+      - columnheader "Price"
+      - columnheader "Ordered Date"
+      - columnheader "View"
+      - columnheader "Delete"
+  - rowgroup:
+    - row "68cd0e7af669d6cb0ad890be ADIDAS ORIGINAL $ 11500 Fri Sep 19 View Delete":
+      - rowheader "68cd0e7af669d6cb0ad890be"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Fri Sep 19"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb91ff669d6cb0ad5edd8 ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb91ff669d6cb0ad5edd8"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb89bf669d6cb0ad5ec26 ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb89bf669d6cb0ad5ec26"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb83bf669d6cb0ad5eb8d ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb83bf669d6cb0ad5eb8d"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb7f7f669d6cb0ad5eae3 ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb7f7f669d6cb0ad5eae3"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb7b1f669d6cb0ad5ea65 ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb7b1f669d6cb0ad5ea65"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+    - row "68cbb6ccf669d6cb0ad5e8b2 ADIDAS ORIGINAL $ 11500 Thu Sep 18 View Delete":
+      - rowheader "68cbb6ccf669d6cb0ad5e8b2"
+      - cell:
+        - img
+      - cell "ADIDAS ORIGINAL"
+      - cell "$ 11500"
+      - cell "Thu Sep 18"
+      - cell "View":
+        - button "View"
+      - cell "Delete":
+        - button "Delete"
+- text: "* If orders Will be more than 7 your last order will get deleted"
+- button "Go Back to Shop"
+- button "Go Back to Cart"
+```

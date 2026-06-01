@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- link "London QA Meetup @Rahul Shetty - Limited Seats! Book Now!":
+  - /url: https://qasummit.org/
+- navigation:
+  - link "ProtoCommerce":
+    - /url: "#"
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /angularpractice
+    - listitem:
+      - link "Shop":
+        - /url: /angularpractice/shop
+- navigation:
+  - link "ProtoCommerce Home":
+    - /url: "#"
+  - list:
+    - listitem
+- table:
+  - rowgroup:
+    - row "Product Quantity Price Total":
+      - cell "Product"
+      - cell "Quantity"
+      - cell "Price"
+      - cell "Total"
+      - cell
+  - rowgroup:
+    - 'row "Nokia Edge by Sim cart Status: In Stock ₹. 65000 ₹. 65000 Remove"':
+      - 'cell "Nokia Edge by Sim cart Status: In Stock"':
+        - link:
+          - /url: "#"
+          - img
+        - heading "Nokia Edge" [level=4]:
+          - link "Nokia Edge":
+            - /url: "#"
+        - heading "by Sim cart" [level=5]:
+          - text: by
+          - link "Sim cart":
+            - /url: "#"
+        - text: "Status:"
+        - strong: In Stock
+      - cell:
+        - spinbutton: "1"
+      - cell "₹. 65000":
+        - strong: ₹. 65000
+      - cell "₹. 65000":
+        - strong: ₹. 65000
+      - cell "Remove":
+        - button "Remove"
+    - row "Total ₹. 65000":
+      - cell
+      - cell
+      - cell
+      - cell "Total":
+        - heading "Total" [level=3]
+      - cell "₹. 65000":
+        - heading "₹. 65000" [level=3]:
+          - strong: ₹. 65000
+    - row "Continue Shopping Checkout":
+      - cell
+      - cell
+      - cell
+      - cell "Continue Shopping":
+        - button "Continue Shopping"
+      - cell "Checkout":
+        - button "Checkout"
+- contentinfo:
+  - paragraph: Copyright © ProtoCommerce 2018
+```
